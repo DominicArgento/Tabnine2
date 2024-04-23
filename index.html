@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surf Company</title>
+    <style>
+        body {
+            background-color: #0077BE; /* Light blue color for the beach and ocean */
+            color: #FFFFFF;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #FFC107; /* Orange color for the header */
+            padding: 20px;
+        }
+
+        header button {
+            background-color: #0077BE; /* Light blue color for the buttons */
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        header button:hover {
+            background-color: #00568C; /* Darker blue color for the buttons on hover */
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .product img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+
+        .product-description {
+            flex: 1;
+        }
+
+        .product-description h2 {
+            margin-top: 0;
+        }
+
+        .product-description p {
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #00568C; /* Darker blue color for the footer */
+            color: #FFFFFF;
+            padding: 20px;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        form label {
+            margin-bottom: 10px;
+        }
+
+        form input {
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        form button {
+            background-color: #0077BE; /* Light blue color for the submit button */
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #00568C; /* Darker blue color for the submit button on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Surf Company</h1>
+        <button>Shop Now</button>
+        <button>Contact Us</button>
+    </header>
+
+    <main>
+        <div class="product">
+            <img src="surfboard1.jpg" alt="Surfboard 1">
+            <div class="product-description">
+                <h2>Surfboard 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel nisi vel nisi ultricies rutrum.</p>
+                <p>$199.99</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="surfboard2.jpg" alt="Surfboard 2">
+            <div class="product-description">
+                <h2>Surfboard 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel nisi vel nisi ultricies rutrum.</p>
+                <p>$249.99</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="surfboard3.jpg" alt="Surfboard 3">
+            <div class="product-description">
+                <h2>Surfboard 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel nisi vel nisi ultricies rutrum.</p>
+                <p>$299.99</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 Surf Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
